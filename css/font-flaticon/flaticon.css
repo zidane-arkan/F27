@@ -1,0 +1,47 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 06/09/2020 04:09
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+    font-family: 'Flaticon';
+    font-size: 14px;
+    font-style: normal;
+    border: 1px solid #E7F9F9;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 50%;
+    padding: 14px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+[class^="flaticon-"]:hover::before, [class*=" flaticon-"]:hover::before,
+[class^="flaticon-"]:hover::after, [class*=" flaticon-"]:hover::after{
+  color: #fff !important;
+  background-color: #615CFD;
+  border: 1px solid #615CFD;
+}
+.flaticon-facebook-logo:before { content: "\f100"; }
+.flaticon-twitter:before { content: "\f101"; }
+.flaticon-instagram:before { content: "\f102"; }
+.flaticon-whatsapp:before { content: "\f103"; }
