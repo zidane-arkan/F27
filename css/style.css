@@ -43,7 +43,7 @@ input:focus, textarea:focus, select:focus{
     background-position: center;
     background-size: cover;
     height: 900px;
-    z-index: 0;
+    z-index: 1;
 }
 .container-header::before{
     content: "";
@@ -230,7 +230,7 @@ input:focus, textarea:focus, select:focus{
     position: relative;
     width: 100%;
     height: auto;
-    z-index:-1;
+    z-index:0;
     background-color: #1F1F1F;
 }
 .about-wrapper::before{
@@ -243,7 +243,7 @@ input:focus, textarea:focus, select:focus{
     left: 0;
     width: 50%;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
 }
 
 .content-wrapper{
